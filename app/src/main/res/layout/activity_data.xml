@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/startButton"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="20dp"
+        android:text="Start"
+        app:layout_constraintEnd_toStartOf="@+id/stopButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <Button
+        android:id="@+id/setParButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setPar"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/getMeasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getMeas"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <Button
+        android:id="@+id/getParButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="57dp"
+        android:text="getPar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stopButton"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GlobalTestAPP" parent="Theme.Material3.DayNight">
+        <!-- Цвет фона ActionBar -->
+        <item name="colorPrimary">@color/green</item>
+        <!-- Цвет ActionBar -->
+        <item name="colorPrimaryDark">@color/dark</item>
+        <!-- Цвет текста в ActionBar -->
+        <item name="android:textColorPrimary">@color/my_text_color</item>
+        <!-- Цвет текста -->
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- Цвет фона приложения -->
+        <item name="android:windowBackground">@color/dark</item>
+    </style>
+
+    <style name="Theme.GlobalTestAPP" parent="Base.Theme.GlobalTestAPP" />
+</resources>
